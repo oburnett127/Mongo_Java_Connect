@@ -25,7 +25,7 @@ public class MongoClass
 	
     public static void main( String[] args ) throws Exception
     {
-    	String connectionString = "mongodb+srv://user385:dJF93mev7KO2@cluster0-oulsl.mongodb.net/test?retryWrites=true&w=majority";
+    	String connectionString = 
     	
     	try {
     		mongoClient = MongoClients.create(connectionString);
